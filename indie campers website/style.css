@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.page1{
+    background-image: url(/assets/suv.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 0px bottom -4em;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: #ffffff;
+    opacity: 70%;
+    height: 4em;
+    width: 100vw;
+    display: flex;
+}
+.logo{
+    width: 25%;
+    background-image: url(/assets/logo.svg);
+    background-repeat: no-repeat;
+    background-position: left 50px center;
+    background-size: 112px 40px;
+}
+.products{
+    width: 50%;
+}
+.prod{
+    display: flex;
+    justify-content: space-evenly;
+}
+.prod li{
+    list-style-type: none;
+}
+.prod a{
+    text-decoration: none;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #323232;
+    opacity: 0.5;
+}
+.prod button{
+    background-color: transparent;
+    border: 1px solid #ED642B;
+    border-radius: 5px;
+    width: 119px;
+    height: 3em;
+    margin-top:-5px;
+    margin-bottom: 0;
+}
+
+.misc{
+    width: 25%;
+    margin-right: 50px;
+}
+.misclist{
+    display: flex;
+    justify-content: space-between;
+    border-left: 2px solid #B9C6D5;
+    margin-left: 0px;
+
+
+}
+.misclist li{
+    list-style-type: none;
+}
+.misclist a{
+    text-decoration: none;
+    text-decoration: none;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #323232;
+    opacity: 0.5;
+}
+.hero{
+
+}
+.hero h1{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #8F99A4;
+    text-align: center;
+}
+/* rv order card*/
+.card{
+    width: 407px;
+    height: 365px;
+    margin-left: 256px;
+    margin-top: 4.5em;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+/* card heading */
+
+.card h6{
+    width: 290px;
+    height: 55px;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #35404D;
+    margin-left: 26px;
+    margin-top: 20px;
+
+
+}
+
+.plates{
+    /* for cancelled and price guarantee*/
+
+    display: flex;
+    margin-left: 26px;
+    margin-top: -35px;
+
+}
+.plate1 {
+    display: flex;
+    width: 122px;
+    height: 22px;
+    background: rgba(143, 153, 164, 0.1);
+    border-radius: 5px;
+}
+.cancel{
+    background-image: url(/assets/cancel1.svg);
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    margin-left: 6px;
+    align-self: center;
+
+
+}
+.plate1 p{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8F99A4;
+    align-self: center;
+
+
+}
+.plate2 {
+    display: flex;
+    width: 150px;
+    height: 22px;
+    background: rgba(143, 153, 164, 0.1);
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+.price{
+    background-image: url(/assets/price1.svg);
+    background-repeat: no-repeat;
+    height: 12px;
+    width: 12px;
+    margin-left: 6px;
+    align-self: center;
+
+
+}
+.plate2 p{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8F99A4;
+    align-self: center;
+
+    /* end of cancelled and price guarantee*/
+}
+
+    /* order section*/
+.order{
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 27px;
+    margin-top: 15px;
+    margin-right: 27px;
+}
+.order1{
+    width: 165px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 0.5px solid #E5E5E5;
+    border-radius: 10px;
+}
+
+.loc{
+        /* from and location icon*/
+
+    background-image: url(/assets/Location.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 18px;
+    width: 150px;
+}
+.loc p{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B9C6D5;
+    margin-left: 20px;
+
+}
+.order1 h3{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #697583;
+    margin-left: 20px;
+
+}
+.dottedline{
+    width: 150px;
+    border: 1px dashed #E5E5E5;
+    
+}
+
+.cal{
+    /* from and calender icon*/
+
+background-image: url(/assets/Calendar.svg);
+background-repeat: no-repeat;
+background-position: right;
+height: 18px;
+width: 150px;
+}
+.cal p{
+font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #B9C6D5;
+margin-left: 20px;
+
+}
+.arrow{
+    background-image: url(/assets/Arrow-Right2.svg);
+    background-repeat: no-repeat;
+    height: 14px;
+    width: 12px;
+    margin-top: 70px;
+}
+.order2{
+    width: 165px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 0.5px solid #E5E5E5;
+    border-radius: 10px;
+
+}
+.order2 h3{
+font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #697583;
+margin-left: 20px;
+}
+.search{
+    margin-top: 20px;
+    align-self: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 356px;
+    height: 50px;
+    background-image: url(/assets/Search.svg);
+    background-repeat: no-repeat;
+
+    background: #FF5B00;
+    border-radius: 10px;
+    border: transparent;
+}
+
+.search a{
+
+    width: 97px;
+    height: 21px;
+    left: 416px;
+    top: 612px;
+    text-decoration: none;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.greenfooter{
+    width: 100vw;
+    height: 4em;
+    background-color:  #3D8963;
+    margin-top: 6em;
+    }
