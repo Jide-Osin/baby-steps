@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#hero{
+    background-image: url(./assets/EOCheader.jpg);
+    background-size: cover;
+    background-position: top right;
+    position: relative;
+    z-index: 1;
+}
+/*#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: .5;
+    z-index: -1;
+}*/
+
+.container{
+    min-height: 100vh;
+    width: 100;
+
+}
+.header-row{
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: baseline;
+
+    background-color: transparent;
+
+
+}
+.logo{
+    justify-content: center;
+
+
+}
+.nav-list{
+    width: 50%;
+    /* border: 2px solid blue;*/
+
+}
+.nav-list ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;    
+
+    
+
+}
+.nav-list ul a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+.icons{
+    width: 30%;
+
+}
+.icons ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 1rem;    
+
+}
+.icons ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/*HERO SECTION*/
+.hero{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+.container h1{
+    display: flex;
+    align-self: flex-start;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.cta{
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-around;
+    
+}
+button{
+    padding: 1rem 4rem;
+    letter-spacing: 3px;
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: .3s ease;
+    transition-property: color, background-color;
+}
+button:hover{
+    color: black;
+    background-color: gold;
+    cursor: grab;
+}
+
+/*END OF HERO SECTION*/
+
+/*
+.nav-list{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+}
+.nav-list >* {
+    flex-shrink: 1;
+    flex-basis: 100%;
+}
+
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 2rem;
+    position: relative;
+}
+
+#hero .cta {
+    display:inline-block ;
+    padding: 10px 30px;
+    color: gold;
+    background-color: transparent;
+    border: 2px solid gold;
+    border-radius: 10 px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: color, background-color;
+}
+#hero .cta:hover{
+    color: black;
+    background-color: gold;
+}
+.ctaaa{
+    display: inline-block;
+}
+.ctaa{
+    width: 150px;
+    padding: 12px;
+    border: 2px solid gold;
+    border-radius: 20px;
+    color: gold;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+}
